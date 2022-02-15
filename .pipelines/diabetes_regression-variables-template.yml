@@ -20,7 +20,7 @@ variables:
 
   # Azure ML Variables
   - name: EXPERIMENT_NAME
-    value: mlopspython
+    value: mlopspython_run_for_demo
   - name: DATASET_NAME
     value: diabetes_ds
   # Uncomment DATASTORE_NAME if you have configured non default datastore to point to your data
@@ -31,7 +31,7 @@ variables:
   - name: TRAINING_PIPELINE_NAME
     value: "diabetes-Training-Pipeline"
   - name: MODEL_NAME
-    value: diabetes_regression_model.pkl
+    value: diabetes_regression_model_run_for_demo.pkl
 
   # AML Compute Cluster Config
   - name: AML_ENV_NAME
